@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Twitter Clone</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+</head>
+
+<body>
+  <div id="header">
+    <h1>Twitter Clone</h1>
+  </div>
+  <div id="tweet-form">
+    <div class="tweet-form-container">
+      <textarea id="tweet-input"></textarea>
+      <div id="character-counter" class="character-counter">150</div>
+    </div>
+    <div id="error-message" class="error-message"></div>
+    <button id="tweet-button" class="submit-button" onclick="addTweet()">
+      Tweet
+    </button>
+  </div>
+  <div id="tweet-list"></div>
+  <script src="script.js"></script>
+</body>
+
+</html>
